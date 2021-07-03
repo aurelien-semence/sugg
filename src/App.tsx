@@ -46,12 +46,8 @@ function App() {
 
   const myFunction = (yourPassword:String,yourEmail:String,email:String,password:String) => {
 
-      if(yourEmail === email && yourPassword === password)
-    
-     // window.location.href = "https://google.com"
-     //return <Redirect to="/success"  component={Success}/>
-
-  
+      if(yourEmail === email && yourPassword === password)    
+        return( window.location.href =    "https://google.com")
   }
 
   
